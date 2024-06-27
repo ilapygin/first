@@ -20,16 +20,7 @@
 
 '''
 def discount_price(price, discount):
-    """
-    Розраховує кінцеву ціну товару після застосування знижки.
-
-    Parameters:
-    price (float): Початкова ціна товару.
-    discount (float): Знижка як число від 0 до 1.
-
-    Returns:
-    float: Кінцева ціна товару після застосування знижки.
-    """
+    
     def apply_discount():
         nonlocal price
         price = price * (1 - discount)
